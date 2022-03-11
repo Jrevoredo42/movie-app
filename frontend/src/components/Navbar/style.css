@@ -1,0 +1,39 @@
+header{
+    background-color: var(--color-primary);
+    height: 60px;
+    align-items: center;
+}
+
+.movie-app-nav-content{
+    display:flex;
+    justify-content:space-between; /*alinha cada item pra um canto da tela */
+    align-items: center;
+    color: #fff;
+
+}
+
+.movie-app-nav-content h1{
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 10px;
+
+}
+
+.movie-app-contact-container{
+    display:flex;
+    align-items: center;
+}
+
+.movie-app-contact-link{
+    margin: 0 0 0 10px;
+    font-size: 14px;
+    margin-top: 15px;
+    font-weight: 700;
+    
+}
+
+.icon-git{
+    margin-top: 15px;
+}
+

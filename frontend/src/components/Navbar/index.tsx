@@ -1,16 +1,16 @@
 import {ReactComponent as GithubIcon} from 'assets/img/github.svg';
-
+import './style.css';
 function Navbar() {
 
     return(
         <header>
         <nav className = 'container'>
-          <div>
+          <div className='movie-app-nav-content'>
             <h1>Movie App</h1>
             <a href='https://github.com/Jrevoredo42'>
-              <div>
-                <GithubIcon />
-                <p>/João revoredo</p>
+              <div className='movie-app-contact-container'>
+                <GithubIcon className='icon-git'/>
+                <p className='movie-app-contact-link'>/João revoredo</p>
               </div>
             </a>
           </div>
